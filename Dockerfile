@@ -6,7 +6,7 @@ ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
-ENV HTTP_PROX=""
+ENV HTTP_PROXY=""
 
 RUN \
  echo "**** install packages ****" && \
