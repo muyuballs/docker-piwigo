@@ -6,6 +6,8 @@ ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
+ENV HTTPPROX=""
+
 RUN \
  echo "**** install packages ****" && \
  apk add --no-cache \
